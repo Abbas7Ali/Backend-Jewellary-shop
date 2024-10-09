@@ -1,0 +1,83 @@
+<?php include'partials/header.php'; ?>
+<?php include'partials/sidebar.php'; ?>
+        <!-- END SIDEBAR MENU -->
+    </div>
+    </div>
+    <!-- BEGIN SCROLL UP HOVER -->
+    <a href="#" class="scrollup">Scroll</a>
+    <!-- END SCROLL UP HOVER -->
+    <!-- END MENU -->
+    <!-- BEGIN SIDEBAR FOOTER WIDGET -->
+    <div class="footer-widget">     
+        </div>
+    <!-- END SIDEBAR FOOTER WIDGET -->
+    <!-- END SIDEBAR --> 
+    <!-- BEGIN PAGE CONTAINER-->
+        
+    <div class="page-content"> 
+    <div class="content">  
+      <!-- BEGIN PAGE TITLE -->
+      <div class="page-title">  
+        <h2>Add Subscriber</h2>   
+      </div>
+      <!-- END PAGE TITLE -->
+      <!-- BEGIN PlACE PAGE CONTENT HERE -->
+        <div class="col-md-14">
+              <div class="grid simple">
+                <div class="grid-body no-border">
+            <div class="row">
+        <div class="col-md-12">
+          <div class="grid simple">
+            <div class="grid-title no-border">
+              &nbsp;
+            </div>
+            <div class="grid-body no-border">
+          <form class="form-no-horizontal-spacing" id="form-condensed"> 
+              <div class="row column-seperation">
+                <div class="col-md-6">
+                  <h4>Basic Information</h4>            
+                    <div class="row form-row">
+                      <div class="col-md-12">
+                        <input name="inputDate" id="inputDate" type="text"  class="form-control" placeholder="Create Date">
+                      </div>
+                    </div>
+                    <div class="row form-row">
+                      <div class="col-md-12">
+                        <input name="inputFullname" id="inputFullname" type="text"  class="form-control" placeholder="Fullname">
+                      </div>
+                    </div>
+                    <div class="row form-row">
+                      <div class="col-md-12">
+                        <input name="inputEmail" id="inputEmail" type="text"  class="form-control" placeholder="Email">
+                      </div>
+                    </div>
+                </div>
+              </div>
+      </form>
+            </div>
+          </div>
+       <div class="form-actions">
+          <button class="btn btn-danger btn-cons" type="submit"><i class="fa fa-save"></i> Save </button>
+          <a href="#" class="btn btn-primary btn-cons" type="button"><i class="fa fa-times"></i> Cancel </a>
+        </div>
+        </div>
+      </div>
+                </div>
+              </div>
+        </div>
+      <!-- END PLACE PAGE CONTENT HERE -->
+    </div>
+  </div>
+
+
+        
+    <!-- END PAGE CONTAINER -->
+</div>
+<!-- END CONTENT --> 
+
+<!-- BEGIN CHAT --> 
+
+<!-- END CHAT --> 
+</body>
+</html>
+
